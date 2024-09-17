@@ -1,0 +1,102 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sticky header styles */
+  h1 {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top */
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0;
+    margin: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  /* Main content container styles */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form field styles */
+  form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form input[type="number"],
+  form select,
+  form textarea,
+  form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  form input[type="file"] {
+    padding: 0;
+  }
+  
+/* Button styles */
+button[type="submit"].save {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #004080;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button[type="button"].cancel {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #004080;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  button[type="button"].cancel:hover {
+    background-color: #f2f2f2;
+  }
+  

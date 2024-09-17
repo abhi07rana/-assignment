@@ -1,0 +1,163 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+/* Search bar styles */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  max-width: 1500px; /* Optional: Adjust this max-width as needed */
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px; /* Space between input and button */
+}
+
+.search-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* New job sheet button */
+.new-job-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.new-job-btn {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Filter options styles */
+.filter-options {
+  display: none; /* Hidden as per your instruction */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table thead {
+  background-color: #004080;
+  color: white;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Status tag styles */
+.status-tag.progress {
+  background-color: #d580ff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status-tag.pending {
+  background-color: #ff8080;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Action buttons container styles */
+td.actions {
+  display: flex;
+  gap: 5px; /* Space between buttons */
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  padding: 0; /* Ensure no extra padding affects alignment */
+}
+
+/* Action buttons styles */
+.view-btn, .edit-btn, .delete-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block; /* Ensure buttons stay inline */
+  font-size: 14px; /* Adjust font size if necessary */
+}
+
+.view-btn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.edit-btn {
+  background-color: #FFC107; /* Yellow */
+  color: white;
+}
+
+.delete-btn {
+  background-color: #F44336; /* Red */
+  color: white;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
